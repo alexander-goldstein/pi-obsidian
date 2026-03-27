@@ -6,6 +6,7 @@ Shareable Pi package for Obsidian CLI workflows.
 
 - `extensions/obsidian-cli.ts` — registers tool `obsidian_cli`
 - `skills/obsidian-cli/SKILL.md` — usage guidance for Obsidian CLI workflows
+- `skills/obsidian-markdown/SKILL.md` — Obsidian Flavored Markdown authoring guidance (wikilinks, embeds, callouts, properties)
 
 ## Install in Pi
 
