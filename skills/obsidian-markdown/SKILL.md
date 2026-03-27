@@ -9,11 +9,11 @@ Create and edit valid Obsidian Flavored Markdown. Obsidian extends CommonMark an
 
 ## Workflow: Creating an Obsidian Note
 
-1. Add frontmatter with properties (`title`, `tags`, `aliases`) at the top.
+1. Add frontmatter with properties (`title`, `tags`, `aliases`) at the top. See [PROPERTIES.md](references/PROPERTIES.md).
 2. Write content using standard Markdown.
 3. Link related notes with wikilinks (`[[Note]]`) for internal links.
-4. Embed notes/files with `![[...]]` syntax.
-5. Add callouts with `> [!type]` syntax.
+4. Embed notes/files with `![[...]]` syntax. See [EMBEDS.md](references/EMBEDS.md).
+5. Add callouts with `> [!type]` syntax. See [CALLOUTS.md](references/CALLOUTS.md).
 6. Verify rendering in Obsidian reading view.
 
 Use `[[wikilinks]]` for vault notes and `[text](url)` for external links.
@@ -131,6 +131,12 @@ Inline footnote.^[This is inline.]
 
 ## References
 
+Local references:
+- [PROPERTIES.md](references/PROPERTIES.md)
+- [EMBEDS.md](references/EMBEDS.md)
+- [CALLOUTS.md](references/CALLOUTS.md)
+
+Official docs:
 - https://help.obsidian.md/obsidian-flavored-markdown
 - https://help.obsidian.md/links
 - https://help.obsidian.md/embeds
