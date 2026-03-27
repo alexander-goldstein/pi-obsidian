@@ -16,19 +16,7 @@ Shareable Pi package for Obsidian CLI workflows.
 From npm:
 
 ```bash
-pi install @haispeed/pi-obsidian
-```
-
-From a local path:
-
-```bash
-pi install .
-```
-
-Or in a project:
-
-```bash
-pi install -l .
+pi install npm:@haispeed/pi-obsidian
 ```
 
 ## Use

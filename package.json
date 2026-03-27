@@ -1,10 +1,27 @@
 {
-  "name": "pi-obsidian",
-  "version": "0.1.0",
+  "name": "@haispeed/pi-obsidian",
+  "version": "0.1.1",
   "private": false,
   "description": "Pi extension + skill for managing Obsidian vaults via Obsidian CLI",
   "keywords": ["pi-package", "pi", "obsidian", "cli"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haispeed/pi-obsidian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haispeed/pi-obsidian/issues"
+  },
+  "homepage": "https://github.com/haispeed/pi-obsidian#readme",
+  "files": [
+    "extensions",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "pi": {
     "extensions": ["./extensions"],
     "skills": ["./skills"]
