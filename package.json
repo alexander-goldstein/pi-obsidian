@@ -1,0 +1,16 @@
+{
+  "name": "pi-obsidian",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Pi extension + skill for managing Obsidian vaults via Obsidian CLI",
+  "keywords": ["pi-package", "pi", "obsidian", "cli"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@sinclair/typebox": "*"
+  }
+}
