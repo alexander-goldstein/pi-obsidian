@@ -1,4 +1,4 @@
-# pi-obsidian
+# @haispeed/pi-obsidian
 
 Shareable Pi package for Obsidian CLI workflows.
 
@@ -12,6 +12,12 @@ Shareable Pi package for Obsidian CLI workflows.
   - `skills/obsidian-markdown/references/CALLOUTS.md`
 
 ## Install in Pi
+
+From npm:
+
+```bash
+pi install @haispeed/pi-obsidian
+```
 
 From a local path:
 
@@ -36,6 +42,12 @@ The extension tool accepts:
 - `flags` (boolean switches)
 - `vault` (vault name)
 - `allowDangerous` (required for `eval`, `dev:cdp`, `dev:debug`, `restart`)
+
+## Publish
+
+```bash
+npm publish --access public
+```
 
 ## Requirements
 
