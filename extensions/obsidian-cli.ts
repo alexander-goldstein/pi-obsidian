@@ -27,11 +27,13 @@ function isValidToken(input: string): boolean {
 }
 
 function buildArgs(input: ToolParams): string[] {
-	const args: string[] = [input.command.trim()];
+	const args: string[] = [];
 
 	if (input.vault?.trim()) {
 		args.push(`vault=${input.vault.trim()}`);
 	}
+
+	args.push(input.command.trim());
 
 	for (const [key, value] of Object.entries(input.params ?? {})) {
 		if (!key.trim()) continue;
